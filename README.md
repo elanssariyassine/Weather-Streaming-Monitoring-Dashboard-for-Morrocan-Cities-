@@ -21,7 +21,12 @@ and the monitoring of climate trends as they unfold.
 ![](https://github.com/elanssariyassine/Weather-Streaming-Monitoring-Dashboard-for-Morrocan-Cities-/blob/main/OpenWeather.png)
 
 ## Tools 
-- **Kafka :** 
+- **Kafka :** Kafka is an open-source distributed data streaming platform used for real-time event data ingestion, processing, and distribution.
+- **Spark :** Spark is an open-source, fast, and versatile big data processing framework for distributed data analytics and machine learning.
+- **Hdfs :** Hadoop Distributed File System (HDFS) is a distributed storage system designed for storing and managing vast amounts of data across a cluster of commodity hardware
+- **Hive :** Hive is a data warehouse infrastructure built on top of Hadoop that provides a query language (HiveQL) for querying and analyzing large datasets stored in Hadoop Distributed File System (HDFS)
+- **PrestoDB :** PrestoDB is an open-source, distributed SQL query engine designed for fast and interactive querying of data across various data sources, including Hadoop, relational databases, and more.
+
 
 
 
