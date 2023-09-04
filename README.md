@@ -27,6 +27,10 @@ and the monitoring of climate trends as they unfold.
 - **Hive :** Hive is a data warehouse infrastructure built on top of Hadoop that provides a query language (HiveQL) for querying and analyzing large datasets stored in Hadoop Distributed File System (HDFS)
 - **PrestoDB :** PrestoDB is an open-source, distributed SQL query engine designed for fast and interactive querying of data across various data sources, including Hadoop, relational databases, and more.
 
+## Project Steps : 
+
+
+
 
 
 
