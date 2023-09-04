@@ -18,9 +18,10 @@ and the monitoring of climate trends as they unfold.
 
 **OpenWeather API**
 
-![]()
+![](https://github.com/elanssariyassine/Weather-Streaming-Monitoring-Dashboard-for-Morrocan-Cities-/blob/main/OpenWeather.png)
 
 ## Tools 
+- **Kafka :** 
 
 
 
