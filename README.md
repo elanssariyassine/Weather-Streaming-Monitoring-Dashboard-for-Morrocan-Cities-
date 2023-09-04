@@ -29,6 +29,23 @@ and the monitoring of climate trends as they unfold.
 
 ## Project Steps : 
 
+- **Data Collection :* retrieve weather information for multiple morrocan  cities from the OpenWeatherMap API and publishes the data (JSON format) to a Kafka topic using the Kafka Producer from the kafka-python package .
+**for that you have to run zookeper and kafka servers firstly and create a kafka topic**
+
+- **Data Processing :* seting up a Spark Structured Streaming job to ingest data from Kafka, process it, and output the results to both the console and HDFS (Csv Format).
+
+- seting up a REST API service for accessing weather data from a PrestoDB database. Clients can make GET requests to the /v1 endpoint to retrieve weather information. The service is run on port 8093 when the script is executed directly.
+
+It is important to note that the code assumes that PrestoDB is properly set up and configured with a 'weather_detail_tbl' table, and it connects to this database to retrieve weather information. Additionally, it uses Flask and CherryPy for serving the API over HTTP
+
+- **Dashboard :*  creation of a web-based dashboard using the Dash framework for real-time weather monitoring.
+Key Features:
+
+* The dashboard displays real-time weather data, including temperature and humidity, for morrocan cities.
+* The "current time" field is updated every second to indicate the latest refresh time.
+* The bar chart displays temperature and humidity for morrocan cities.
+* The data table provides a paginated view of weather records.
+**Users can access the dashboard through a web browser to monitor real-time weather data. It continuously fetches and updates weather information from the specified API endpoint.**
 
 
 
