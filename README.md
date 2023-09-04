@@ -12,7 +12,7 @@ and the monitoring of climate trends as they unfold.
 
 ## Data Pipline
 
-![](https://github.com/elanssariyassine/Weather-Streaming-Monitoring-Dashboard-for-Morrocan-Cities-/blob/main/architecture.png)
+![](https://github.com/elanssariyassine/Weather-Streaming-Monitoring-Dashboard-for-Morrocan-Cities-/blob/main/Data%20Pipline.png)
 
 ## Data Source 
 
