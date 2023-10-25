@@ -1,0 +1,12 @@
+//avant de lancer kafka verifiez port de broker  sur server.propreties:
+
+localhost:9092
+
+//start zookeper
+
+systemctl start zookeper
+
+//start kafka
+systemctl start kafka
+
+//utuliser --bootstrap-server pour cree un topic

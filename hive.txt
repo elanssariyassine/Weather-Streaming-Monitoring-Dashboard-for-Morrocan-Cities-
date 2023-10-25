@@ -1,0 +1,34 @@
+mysql -u hive -p 
+drop database metastore;
+
+schematool -initSchema -dbType mysql 
+
+nohup hive --service metastore &
+nohup hive --service hiveserver2 &
+
+//to remove this error : "HiveException java.lang.RuntimeException: Unable to instantiate //org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient"
+
+
+//run hive
+hive
+//
+show databases;
+use default;
+
+
+
+
+CREATE EXTERNAL TABLE weather_detail_tbl(
+CityName STRING,
+Temperature DOUBLE,
+Humidity INT,
+CreationTime TIMESTAMP,
+CreationDate STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+LOCATION '/user/weather' ;
+
+
+select * from weather_detail_tbl limit 10;
+select count(*) from from weather_detail_tbl ;

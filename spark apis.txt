@@ -1,0 +1,4 @@
+
+-spark-sql (3.4.1)
+-spark-sql-kafka (3.4.1)
+https://jar-download.com/?search_box=org.apache.spark+spark.sql

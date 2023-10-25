@@ -1,0 +1,18 @@
+// installation
+https://www.youtube.com/watch?v=k2wyLCN_8Mc
+
+//run presto
+sudo bin/launcher start
+
+// run presto for hive
+
+bin/presto --server 127.0.0.1:8090 --catalog hive
+
+//u have to run hive metastore to execute quieries
+hive --service metastore
+
+
+// UI
+
+localhost:8090
+ schematool -dbType mysql -initSchema

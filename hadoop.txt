@@ -1,0 +1,5 @@
+//start hdfs
+start-all.sh
+
+//UI
+localhost:9870
